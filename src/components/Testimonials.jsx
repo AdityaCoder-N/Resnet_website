@@ -51,7 +51,7 @@ const Testimonials = () => {
   
     return (
   
-      <div className="testimonial-container bg-black relative p-4 mb-20 sm:mb-0">
+      <div className="testimonial-container bg-black relative p-10 mb-20 sm:mb-0">
         <img src={topleft} alt="" className='absolute left-0 top-0 z-1'/>
         <div className="flex gap-6 z-50 relative items-center">
             <span className='font-bold text-3xl sm:text-6xl font-Sg text-white relative'>Testimonials</span>

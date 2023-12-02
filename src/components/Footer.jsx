@@ -9,7 +9,7 @@ import "../static/Footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer font-Sg">
+      <footer className="footer font-Sg mt-8">
         <div className="footer-section">
           <img src={logo} alt="" className="footer-logo h-[50px]" />
           <div className="footer-description md:w-[250px]">
