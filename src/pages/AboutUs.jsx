@@ -14,13 +14,13 @@ import rec6 from "../assets/rec6.png";
 import Approaches from "../components/Approaches";
 const AboutUs = () => {
   return (
-    <div className="flex flex-col my-10 max-w-[1440px]  font-Sg">
-      <div className="flex justify-center items-center gap-10 mt-28">
-        <div className="">
+    <div className="flex flex-col my-10 max-w-[1440px]  font-Sg"> 
+      <div className="flex justify-center items-center gap-10 mt-28 sm:p-0">
+        <div className="px-4">
           <h1 className=" text-[40px] md:text-[64px] not-italic font-bold leading-[normal] text-white">
             We make your <p className="text-[#D61426] "> business scale 10X</p>
           </h1>
-          <p className=" w-[320px] md:w-[596px] text-white text-[24px] md:text-2xl not-italic font-normal leading-[normal] mt-9">
+          <p className=" w-[320px] md:w-[596px] text-white text-[20px] sm:text-[24px] md:text-2xl not-italic font-normal leading-[normal] mt-9">
             Lorem ipsum dolor sit amet consectetur. Nulla sed purus fringilla
             tellus. Lorem ipsum dolor sit amet consectetur. Nulla sed purus
             fringilla tellus. Lorem ipsum dolor sit amet consectetur. Nulla sed
@@ -29,7 +29,7 @@ const AboutUs = () => {
         </div>
         <img src={heroabt} alt="" className=" hidden lg:flex" />
       </div>
-      <div className="flex flex-col gap-20 px-[15px] md:px-0 justify-between items-center w-full">
+      <div className="flex flex-col gap-20 sm:px-0 justify-between items-center w-full">
         <div className="flex relative justify-between items-center  my-20 md:my-40 gap-5 w-[300px] md:w-[600px] lg:w-[900px]">
           <img
             src={aboutvector1}
@@ -63,11 +63,11 @@ const AboutUs = () => {
           </svg>
         </div>
 
-        <div className="flex flex-row gap-20 justify-center items-start font-Sg">
+        <div className="flex flex-row gap-20 justify-center items-start font-Sg ">
           <div className="flex flex-col gap-20">
-            <div>
-              <section className="flex gap-12">
-                <div className="w-[80px] h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
+            <div className="flex flex-col items-center justify-around">
+              <section className="flex gap-4 sm:gap-12">
+                <div className=" h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
                   <img src={ccs} alt="" />
                 </div>
                 <h1 className="w-[250px] md:w-[313px] md:h-[113px] shrink-0 text-[28px] md:text-[44px] text-[#D61426] not-italic font-medium leading-[normal]">
@@ -89,8 +89,8 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div>
-              <section className="flex gap-12">
+            <div className="flex flex-col items-center justify-around">
+              <section className="flex gap-4 sm:gap-12">
                 <div className="w-[80px] h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
                   <img src={cet} alt="" />
                 </div>
@@ -134,8 +134,8 @@ const AboutUs = () => {
             />
           </div>
           <div className="flex flex-col gap-20">
-            <div>
-              <section className="flex gap-12">
+            <div className="flex flex-col items-center justify-around">
+              <section className="flex gap-4 sm:gap-12">
                 <div className="w-[80px] h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
                   <img src={ad} alt="" />
                 </div>
@@ -158,8 +158,8 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div>
-              <section className="flex gap-12">
+            <div className="flex flex-col items-center justify-around">
+              <section className="flex gap-4 sm:gap-12">
                 <div className="w-[80px] h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
                   <img src={tc} alt="" />
                 </div>
@@ -186,8 +186,8 @@ const AboutUs = () => {
 
         <div className="flex flex-row gap-20 justify-center items-start font-Sg">
           <div className="flex flex-col gap-20">
-            <div>
-              <section className="flex gap-12">
+            <div className="flex flex-col items-center justify-around">
+              <section className="flex gap-4 sm:gap-12">
                 <div className="w-[80px] h-[80px] md:w-[102px] md:h-[102px] bg-white shrink-0 flex justify-center items-center rounded-[5px]">
                   <div className="streamline-computer-desktop-check-success-approve-device-display-desktop-computer">
                     <svg

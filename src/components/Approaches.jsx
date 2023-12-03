@@ -10,8 +10,8 @@ const Approaches = () => {
           alt=""
           className="absolute -z-10 md:-left-24 -left-4 w-[90px] h-[100px] md:w-[229px] md:h-[249px]"
         />
-        <h1 className=" text-[24px] md:text-[40px] lg:text-[64px] not-italic font-bold leading-[normal] text-white">
-          Our <span className="text-[#D61426] ">Uniqueness</span>
+        <h1 className=" text-[24px] ml-7 md:text-[40px] lg:text-[64px] not-italic font-bold leading-[normal] text-white">
+          Our <span className="text-[#D61426]">Uniqueness</span>
         </h1>
 
         <svg
@@ -55,11 +55,11 @@ const Approaches = () => {
                 fill="white"
               />
             </svg>
-            <h1 className="text-white text-[32px] not-italic font-medium leading-[normal">
+            <h1 className="text-white text-[26px] sm:text-[32px] not-italic font-medium leading-[normal">
               Win-Win Collaboration
             </h1>
           </div>
-          <p className="text-white text-xl not-italic font-normal leading-[normal]">
+          <p className="text-white mt-4 text-xl not-italic font-normal leading-[normal]">
             We believe in creating mutually beneficial partnerships with our
             clients.
           </p>
@@ -80,11 +80,11 @@ const Approaches = () => {
                 fill="white"
               />
             </svg>
-            <h1 className="text-white text-[32px] not-italic font-medium leading-[normal">
+            <h1 className="text-white text-[26px] sm:text-[32px] not-italic font-medium leading-[normal">
               Customised Solutions
             </h1>
           </div>
-          <p className="text-white text-xl not-italic font-normal leading-[normal]">
+          <p className="text-white mt-4 text-xl not-italic font-normal leading-[normal]">
             Every client is unique, and so are our AI/ML solutions.
           </p>
         </div>
@@ -104,11 +104,11 @@ const Approaches = () => {
                 fill="white"
               />
             </svg>
-            <h1 className="text-white text-[32px] not-italic font-medium leading-[normal">
+            <h1 className="text-white text-[26px] sm:text-[32px] not-italic font-medium leading-[normal">
               Result driven Focus
             </h1>
           </div>
-          <p className="text-white text-xl not-italic font-normal leading-[normal]">
+          <p className="text-white mt-4  text-xl not-italic font-normal leading-[normal]">
             We're not satisfied until we've delivered tangible, data-driven
             results.
           </p>
@@ -143,11 +143,11 @@ const Approaches = () => {
                 fill="white"
               />
             </svg>
-            <h1 className="text-white text-[32px] not-italic font-medium leading-[normal">
+            <h1 className="text-white text-[26px] sm:text-[32px] not-italic font-medium leading-[normal">
               Continuous Improvement
             </h1>
           </div>
-          <p className="text-white text-xl not-italic font-normal leading-[normal]">
+          <p className="text-white mt-4 text-xl not-italic font-normal leading-[normal]">
             Your success is our motivation to continuously enhance our
             solutions.
           </p>
@@ -169,11 +169,11 @@ const Approaches = () => {
                 stroke-width="4"
               />
             </svg>
-            <h1 className="text-white text-[32px] not-italic font-medium leading-[normal">
+            <h1 className="text-white text-[26px] sm:text-[32px]  not-italic font-medium leading-[normal">
               Collaborative Innovation
             </h1>
           </div>
-          <p className="text-white text-xl not-italic font-normal leading-[normal]">
+          <p className="text-white mt-4 text-xl not-italic font-normal leading-[normal]">
             We encourage collaboration between our experts and your team.
           </p>
         </div>
