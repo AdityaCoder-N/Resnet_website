@@ -32,6 +32,7 @@ const ContactUs = () => {
           </div>
           <form
             action="https://formsubmit.co/deekshitha.qriocity@gmail.com"
+            method="post"
             className="px-5 justify-end flex flex-col "
           >
             <div className="mb-4 px-5">
@@ -41,8 +42,7 @@ const ContactUs = () => {
                 id="username"
                 name="username"
                 placeholder="Enter your name"
-                value={formData.username}
-                onChange={handleChange}
+                
                 className="w-full  py-4  px-4 focus:outline-none focus:border-none border-0 bg-[#F5F5FF] rounded-xl"
               />
             </div>
@@ -54,8 +54,8 @@ const ContactUs = () => {
                 id="email"
                 name="email"
                 placeholder="Enter your email address"
-                value={formData.email}
-                onChange={handleChange}
+                
+                
                 className="w-full  py-4  px-4 focus:outline-none focus:border-none border-0 bg-[#F5F5FF] rounded-xl"
               />
             </div>
@@ -66,8 +66,7 @@ const ContactUs = () => {
                 id="phno"
                 name="pgno"
                 placeholder="Enter your Contact Number "
-                value={formData.phno}
-                onChange={handleChange}
+                
                 className="w-full  py-4  px-4 focus:outline-none focus:border-none border-0 bg-[#F5F5FF] rounded-xl"
               />
             </div>
@@ -76,9 +75,9 @@ const ContactUs = () => {
               <textarea
                 id="message"
                 name="message"
-                value={formData.message}
+                
                 placeholder="Go ahead, We are listening..."
-                onChange={handleChange}
+              
                 rows="4"
                 className="w-full  py-4  px-4 focus:outline-none focus:border-none border-0 bg-[#F5F5FF] rounded-xl"
               ></textarea>
