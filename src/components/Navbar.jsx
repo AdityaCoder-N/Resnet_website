@@ -30,10 +30,10 @@ const Navbar = () => {
         <Link to="/about" className={isRouteActive("/about")}>
           About Us
         </Link>
-        <Link to="/services" className={isRouteActive("/services")}>
+        {/* <Link to="/services" className={isRouteActive("/services")}>
           Services
-        </Link>
-        <Link to="/portfolio" className={isRouteActive("/portfolio")}>
+        </Link> */}
+        <Link to="/caseStudies" className={isRouteActive("/caseStudies")}>
           Case Studies
         </Link>
         <Link
@@ -74,19 +74,19 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/portfolio"
-            className={isRouteActive("/portfolio")}
+            to="/caseStudies"
+            className={isRouteActive("/caseStudies")}
             onClick={toggleMenu}
           >
-            Portfolio
+            Case Studies
           </Link>
-          <Link
+          {/* <Link
             to="/services"
             className={isRouteActive("/services")}
             onClick={toggleMenu}
           >
             Our Services
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             className={isRouteActive("/contact")}

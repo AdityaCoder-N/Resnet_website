@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/Resnet Logo White.png";
 
-import fb from "../assets/fb.png";
+import fb from "../assets/facebook-f.svg";
 import insta from "../assets/insta.png";
 import twitter from '../assets/twitter.png'
 import "../static/Footer.css";
@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="section-heading">Follow us on</div>
           <div className="footer-item-container socials">
             <a className="footer-item" href="/">
-              <img src={fb}></img>
+              <img src={fb} className=""></img>
               <div className="social-name">Facebook</div>
             </a>
             <a className="footer-item" href="">

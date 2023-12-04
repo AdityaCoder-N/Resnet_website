@@ -135,3 +135,8 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: #fff;
 }
+
+.red-gradient{
+  background: linear-gradient(black 20%, #630a13 60%,#D61426 100%);
+
+}
