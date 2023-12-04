@@ -62,7 +62,7 @@ const ContactUs = () => {
             <div className="mb-4 px-5">
               <input
                 required
-                type="text"
+                type="number"
                 id="phno"
                 name="pgno"
                 placeholder="Enter your Contact Number "

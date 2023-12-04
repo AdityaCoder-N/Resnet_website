@@ -7,6 +7,11 @@ import { useParams } from 'react-router-dom';
 
 const CaseStudyItem = ({title , problems,solution,obstacles,tools,coverImage,classname}) => {
 
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+    
+      }, []);
 
   return (
     <div className='text-white font-Sg md:mt-24 w-full md:pt-[16vh] '>

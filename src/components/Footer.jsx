@@ -5,6 +5,7 @@ import fb from "../assets/facebook-f.svg";
 import insta from "../assets/insta.png";
 import twitter from '../assets/twitter.png'
 import "../static/Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,35 +19,32 @@ const Footer = () => {
         </div>
 
         <div className="footer-section courses">
-          <div className="section-heading">Quick Links</div>
+          <div className="section-heading text-[#FF0000]">Quick Links</div>
           <div className="footer-item-container">
-            <a className="footer-item" href="/">
+            <Link className="footer-item" to="/">
               Home
-            </a>
-            <a className="footer-item" href="/about">
+            </Link>
+            <Link className="footer-item" to="/about">
               About
-            </a>
-            <a className="footer-item" href="/caseStudies">
-              Case Studies
-            </a>
-            <a className="footer-item" href="/contact">
-              Contact Us
-            </a>
+            </Link>
+            <Link className="footer-item" to="/caseStudies">
+              Success Stories
+            </Link>
           </div>
         </div>
 
         <div className="footer-section courses">
-          <div className="section-heading">Case Studies</div>
+          <div className="section-heading  text-[#FF0000]">Success Stories</div>
           <div className="footer-item-container ">
-            <a className="footer-item" href="/caseStudy/documentation">
+            <Link className="footer-item" to="/caseStudy/documentation">
               Documentation Generation
-            </a>
-            <a className="footer-item" href="/caseStudy/dataAnalytics">
+            </Link>
+            <Link className="footer-item" to="/caseStudy/dataAnalytics">
               Customer Integration
-            </a>
-            <a className="footer-item" href="/caseStudy/healthcare">
+            </Link>
+            <Link className="footer-item" to="/caseStudy/healthcare">
               AI in Healthcare
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -55,7 +53,7 @@ const Footer = () => {
           <div className="mb-8">To get Frequent Updates on the Company's Vision and Products Dont Forget to Follow us on</div>
           <div className="footer-item-container socials">
             
-            <a className="footer-item" href="">
+            <a className="footer-item" href="" target="page">
               <img src={insta}></img>
               <div className="social-name">Instagram</div>
             </a>

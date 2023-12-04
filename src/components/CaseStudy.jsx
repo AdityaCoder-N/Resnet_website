@@ -1,6 +1,8 @@
 import React from 'react'
 import topleft from '../assets/topleftblob.png'
 import triangle from '../assets/Polygon 1.png'
+import { Link } from 'react-router-dom'
+
 const CaseStudy = () => {
   return (
     <div className='bg-black text-white relative py-20 px-6 sm:px-10'>
@@ -16,17 +18,17 @@ const CaseStudy = () => {
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
                 <h2 className='text-2xl font-bold'>Optimizing Documentation with AI</h2>
                 <p className='my-4 text-lg text-justify'>Elevate documentation efficiency with AI, showcasing a substantial 30% boost in accuracy. Embrace streamlined workflows, reducing manual efforts and enhancing collaborative processes. Harness the power of AI for precision and optimization in documentation generation.</p>
-                <a href="" className='text-[#D61426] font-semibold '>Check to see more &gt;</a>
+                <Link to="/caseStudy/documentation" className='text-[#D61426] font-semibold '>Check to see more &gt;</Link>
             </div>
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
                 <h2 className='text-2xl font-bold'>Transforming Customer Engagement in Retail</h2>
                 <p className='my-4 text-lg text-justify'>Discover the success story of a retail giant as we implemented AI-driven strategies to enhance customer engagement. Learn how personalized recommendations and targeted marketing campaigns led to a 15% increase in customer satisfaction and a substantial boost in sales.</p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                <Link to="caseStudy/analytics" className='text-[#D61426] font-semibold'>Check to see more &gt;</Link>
             </div>
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
                 <h2 className='text-2xl font-bold'>Healthcare Revolution: AI in Patient Care</h2>
                 <p className='my-4 text-lg text-justify'>Dive into the impact of AI on healthcare with our case study highlighting improved patient care and operational efficiency. Explore how machine learning algorithms reduced diagnosis time, enhanced treatment plans, and ultimately elevated the quality of healthcare services provided.</p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                <Link to="caseStudy/healthcare" className='text-[#D61426] font-semibold'>Check to see more &gt;</Link>
             </div>
 
         </div>
