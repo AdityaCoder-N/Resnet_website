@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* <Link to="/services" className={isRouteActive("/services")}>
           Services
         </Link> */}
-        <Link to="/caseStudies" className={isRouteActive("/caseStudies")}>
+        <Link to="/caseStudy/documentation" className={isRouteActive("/caseStudy/documentation")}>
           Case Studies
         </Link>
         <Link
@@ -74,8 +74,8 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/caseStudies"
-            className={isRouteActive("/caseStudies")}
+            to="/caseStudy/documentation"
+            className={isRouteActive("/caseStudy/documentation")}
             onClick={toggleMenu}
           >
             Case Studies

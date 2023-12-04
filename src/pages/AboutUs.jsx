@@ -21,10 +21,7 @@ const AboutUs = () => {
             We make your <p className="text-[#D61426] "> business scale 10X</p>
           </h1>
           <p className=" w-[320px] md:w-[596px] text-white text-[20px] sm:text-[24px] md:text-2xl not-italic font-normal leading-[normal] mt-9">
-            Lorem ipsum dolor sit amet consectetur. Nulla sed purus fringilla
-            tellus. Lorem ipsum dolor sit amet consectetur. Nulla sed purus
-            fringilla tellus. Lorem ipsum dolor sit amet consectetur. Nulla sed
-            purus fringilla tellus. Lorem ipsum dolor sit amet consectetur.
+          Welcome to Resnet Solutions, a pioneering force in the realm of AI automation and technology solutions. With a relentless commitment to innovation, we stand at the forefront of transforming businesses through cutting-edge artificial intelligence applications. At Resnet, we weave together expertise, creativity, and AI technologies to deliver solutions that propel your business into the future.
           </p>
         </div>
         <img src={heroabt} alt="" className=" hidden lg:flex" />

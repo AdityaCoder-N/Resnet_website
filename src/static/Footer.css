@@ -9,7 +9,7 @@ body{
     width: 100%;
     /* max-width: 1440px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1.5fr 1fr 1fr 1fr; 
     gap: 2rem;
     background-color: black;
     color: white;
@@ -130,7 +130,7 @@ body{
         gap: 35px;
     }
     .social-name{
-        display: none;
+        /* display: none; */
     }
     .footer-item img{
         width: 2rem;

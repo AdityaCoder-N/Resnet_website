@@ -140,3 +140,15 @@ body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(black 20%, #630a13 60%,#D61426 100%);
 
 }
+.red-filter{
+  filter: brightness(90%) hue-rotate(330deg);
+}
+.data-img{
+  filter: hue-rotate(100deg);
+}
+.analytics{
+  filter: hue-rotate(150deg);
+}
+.documentation{
+  filter: hue-rotate(400deg);
+}

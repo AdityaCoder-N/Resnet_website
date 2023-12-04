@@ -3,6 +3,9 @@ import triangle from '../assets/Polygon 1.png'
 import rightblob from '../assets/right-blob.png'
 import leftblob from '../assets/left-blob.png'
 import phone from '../assets/phone.png'
+import dataAnalyisimg from '../assets/data-analysis-imag.png'
+import ai from '../assets/ai-image.png'
+import aiHumanImg from '../assets/ai-human-imag.png'
 
 const Services = () => {
   return (
@@ -21,11 +24,11 @@ const Services = () => {
                 <p className='text-xl sm:text-2xl my-6'>
                 Ready to elevate your business with AI and ML? Contact us today for a consultation. Our team is eager to understand your unique challenges and design a tailor-made solution that propels your business into the future.
                 </p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                
             </div>
             <div className='w-[85%] right-0   sm:w-[50%] absolute top-0 sm:relative h-full z-1'>
                 <img src={rightblob} alt="" className='relative float-right z-1'/>
-                <img src={phone} alt="" className='hidden sm:block absolute right-[20%] -top-20 z-2 h-[100%] w-full '/>
+                <img src={aiHumanImg} alt="" className='hidden sm:block absolute left-[20%] top-[20%] z-2 h-[60%] w-[60%] red-filter object-cover'/>
             </div>
         </div>
 
@@ -33,14 +36,14 @@ const Services = () => {
         <div className='block sm:flex sm:pl-10 mt-28 gap-20 items-center relative'>
             <div className='w-full  sm:w-[50%] absolute top-0 sm:relative h-full z-1'>
                 <img src={leftblob} alt="" className='relative float-right z-1'/>
-                <img src={phone} alt="" className='hidden sm:block absolute right-[20%] -top-20 z-2 h-[100%] w-full '/>
+                <img src={dataAnalyisimg} alt="" className='hidden sm:block absolute right-[10%] top-20 z-2 h-[70%] w-[70%] object-cover data-img'/>
             </div>
             <div className='w-full sm:w-[50%] z-10 relative p-4 sm:p-0'>
                 <h1 className='font-semibold text-4xl'>Data Science Consulting</h1>
                 <p className='text-xl sm:text-2xl my-6'>
                 Unleash the power of your data with our data science consulting services. We help you extract meaningful patterns, trends, and insights, empowering you to make informed decisions.
                 </p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                
             </div>
             
         </div>
@@ -52,11 +55,11 @@ const Services = () => {
                 <p className='text-xl sm:text-2xl my-6'>
                 Seamlessly integrate AI solutions into your existing infrastructure with our implementation and integration services. Our experts ensure a smooth transition and provide ongoing support to maximize efficiency.
                 </p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                
             </div>
             <div className='w-[85%] right-0   sm:w-[50%] absolute top-0 sm:relative h-full z-1'>
                 <img src={rightblob} alt="" className='relative float-right z-1'/>
-                <img src={phone} alt="" className='hidden sm:block absolute right-[20%] -top-20 z-2 h-[100%] w-full'/>
+                <img src={ai} alt="" className='hidden sm:block absolute right-[20%] top-2 z-2 h-[60%] w-[60%] object-cover'/>
             </div>
         </div>
 

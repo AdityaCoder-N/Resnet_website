@@ -64,9 +64,9 @@ const Testimonials = () => {
   
             <div className="mySlides fade">
               <div className="content">
-                <p>"Working with the AI Consulting team has been a game-changer for us. Their expertise in machine learning and data science has significantly improved our decision-making process. I highly recommend their services!"</p>
+                <p>"Working with the Resnet Solutions team has been a game-changer for us. Their expertise in machine learning and data science has significantly improved our decision-making process. I highly recommend their services!"</p>
                 <div className="credentials">
-                  <div>Andreq Jackson</div>
+                  <div>Karan Mehra</div>
                   <p >CEO Tech Innovations Ltd</p>
                 </div>
                 <div className="dot-div">
@@ -78,9 +78,9 @@ const Testimonials = () => {
             </div>
             <div className="mySlides fade">
               <div className="content">
-                <p>"The AI Implementation & Integration services provided by this team exceeded our expectations. They seamlessly integrated AI solutions into our existing infrastructure, leading to a remarkable increase in efficiency. Truly impressive!"</p>
+                <p>"The AI Implementation & Integration services provided by Resnet Solutions team exceeded our expectations. They seamlessly integrated AI solutions into our existing infrastructure, leading to a remarkable increase in efficiency. Truly impressive!"</p>
                 <div className="credentials">
-                  <div>Jane Smith</div>
+                  <div>Priya Gupta</div>
                   <p > CTO Data Solutions Inc</p>
                 </div>
                 <div className="dot-div">
@@ -92,10 +92,38 @@ const Testimonials = () => {
             </div>
             <div className="mySlides fade">
               <div className="content">
-                <p>"The dedication and hard work of the AI Consulting team are commendable. Their tailor-made solutions have propelled our business into the future. I appreciate their commitment to understanding our unique challenges."</p>
+                <p>"The dedication and hard work of the Resnet Solutions team are commendable. Their tailor-made solutions have propelled our business into the future. I appreciate their commitment to understanding our unique challenges."</p>
                 <div className="credentials">
-                  <div>Michael Johnson</div>
+                  <div>Arjun Reddy</div>
                   <p >VP of Operations AI Innovators</p>
+                </div>
+                <div className="dot-div">
+                  <span className="dot" onClick={() => currentSlide(1)}></span>
+                  <span className="dot" onClick={() => currentSlide(2)}></span>
+                  <span className="dot" onClick={() => currentSlide(3)}></span>
+                </div>
+              </div>
+            </div>
+            <div className="mySlides fade">
+              <div className="content">
+                <p>"We engaged with Resnet Solutions for their expertise in natural language processing, and the results have been remarkable. Their sentiment analysis algorithms have provided invaluable insights into customer feedback, enabling us to enhance our products based on user preferences."</p>
+                <div className="credentials">
+                  <div>Alex Greene</div>
+                  <p >CMO, Visionaries Ltd</p>
+                </div>
+                <div className="dot-div">
+                  <span className="dot" onClick={() => currentSlide(1)}></span>
+                  <span className="dot" onClick={() => currentSlide(2)}></span>
+                  <span className="dot" onClick={() => currentSlide(3)}></span>
+                </div>
+              </div>
+            </div>
+            <div className="mySlides fade">
+              <div className="content">
+                <p>"The AI integration services provided by Resnet Solutions have been pivotal in streamlining our operations. Their automation solutions have not only increased productivity but also reduced operational costs. We are incredibly satisfied with the results and ongoing support."</p>
+                <div className="credentials">
+                  <div>Rodrigo Reynolds</div>
+                  <p >CFO, DataTech Solutions Ltd.</p>
                 </div>
                 <div className="dot-div">
                   <span className="dot" onClick={() => currentSlide(1)}></span>

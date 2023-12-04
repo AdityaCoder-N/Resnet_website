@@ -14,18 +14,18 @@ const CaseStudy = () => {
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 my-2 0 sm:px-20 py-16'>
 
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
-                <h2 className='text-2xl font-bold'>Optimizing Supply Chain with Predictive Analytics</h2>
-                <p className='my-4 text-lg'>Explore how our predictive analytics solutions streamlined inventory management, reducing stockouts and optimizing supply chain operations. Learn how data-driven insights revolutionized decision-making, leading to a 20% increase in overall supply chain efficiency.</p>
-                <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
+                <h2 className='text-2xl font-bold'>Optimizing Documentation with AI</h2>
+                <p className='my-4 text-lg text-justify'>Elevate documentation efficiency with AI, showcasing a substantial 30% boost in accuracy. Embrace streamlined workflows, reducing manual efforts and enhancing collaborative processes. Harness the power of AI for precision and optimization in documentation generation.</p>
+                <a href="" className='text-[#D61426] font-semibold '>Check to see more &gt;</a>
             </div>
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
                 <h2 className='text-2xl font-bold'>Transforming Customer Engagement in Retail</h2>
-                <p className='my-4 text-lg'>Discover the success story of a retail giant as we implemented AI-driven strategies to enhance customer engagement. Learn how personalized recommendations and targeted marketing campaigns led to a 15% increase in customer satisfaction and a substantial boost in sales.</p>
+                <p className='my-4 text-lg text-justify'>Discover the success story of a retail giant as we implemented AI-driven strategies to enhance customer engagement. Learn how personalized recommendations and targeted marketing campaigns led to a 15% increase in customer satisfaction and a substantial boost in sales.</p>
                 <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
             </div>
             <div className='border-2 border-[#D61426] rounded-xl px-10 py-8'>
                 <h2 className='text-2xl font-bold'>Healthcare Revolution: AI in Patient Care</h2>
-                <p className='my-4 text-lg'>Dive into the impact of AI on healthcare with our case study highlighting improved patient care and operational efficiency. Explore how machine learning algorithms reduced diagnosis time, enhanced treatment plans, and ultimately elevated the quality of healthcare services provided.</p>
+                <p className='my-4 text-lg text-justify'>Dive into the impact of AI on healthcare with our case study highlighting improved patient care and operational efficiency. Explore how machine learning algorithms reduced diagnosis time, enhanced treatment plans, and ultimately elevated the quality of healthcare services provided.</p>
                 <a href="" className='text-[#D61426] font-semibold'>Check to see more &gt;</a>
             </div>
 
