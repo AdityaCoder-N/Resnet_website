@@ -24,7 +24,6 @@ const Services = () => {
                 <p className='text-xl sm:text-2xl my-6'>
                 Ready to elevate your business with AI and ML? Contact us today for a consultation. Our team is eager to understand your unique challenges and design a tailor-made solution that propels your business into the future.
                 </p>
-                
             </div>
             <div className='w-[85%] right-0   sm:w-[50%] absolute top-0 sm:relative h-full z-1'>
                 <img src={rightblob} alt="" className='relative float-right z-1'/>
@@ -59,7 +58,7 @@ const Services = () => {
             </div>
             <div className='w-[85%] right-0   sm:w-[50%] absolute top-0 sm:relative h-full z-1'>
                 <img src={rightblob} alt="" className='relative float-right z-1'/>
-                <img src={ai} alt="" className='hidden sm:block absolute right-[20%] top-2 z-2 h-[60%] w-[60%] object-cover'/>
+                <img src={ai} alt="" className='hidden sm:block absolute right-[20%] top-20 z-2 h-[60%] w-[60%] object-cover'/>
             </div>
         </div>
 

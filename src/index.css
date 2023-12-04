@@ -138,7 +138,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 .red-gradient{
   background: linear-gradient(black 20%, #630a13 60%,#D61426 100%);
-
 }
 .red-filter{
   filter: brightness(90%) hue-rotate(330deg);
