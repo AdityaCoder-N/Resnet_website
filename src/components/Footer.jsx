@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="mb-8">To get Frequent Updates on the Company's Vision and Products Dont Forget to Follow us on</div>
           <div className="footer-item-container socials">
             
-            <a className="footer-item" href="" target="page">
+            <a className="footer-item" href="https://www.instagram.com/resnetsolutions/" target="page">
               <img src={insta}></img>
               <div className="social-name">Instagram</div>
             </a>
