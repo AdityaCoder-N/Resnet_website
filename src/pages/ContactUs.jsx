@@ -31,7 +31,7 @@ const ContactUs = () => {
             </div>
           </div>
           <form
-            action="https://formsubmit.co/deekshitha.qriocity@gmail.com"
+            action="https://formsubmit.co/gowthamr.quriocity@gmail.com"
             method="post"
             className="px-5 justify-end flex flex-col "
           >
